@@ -23,7 +23,7 @@ Follow the notebook steps to track the selected ray and store the coordinates al
 
 Notes:
 - Make sure you select ray and pointy rays. Avoid blurry and over structured rays.
-- You may want to repeat the track at least three time to ensure to have a good extimation of the errors.
+- You may want to repeat the track at least three times to ensure to have a good extimation of the errors.
 
 Fitting
 -----
