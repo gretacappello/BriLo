@@ -2,6 +2,7 @@
 This repository provides tools to download WISPR Level 3 data, select and track coronal rays, fit their measured brightness over elongation with a theoretical profile of the Thomson Scattering theory to infer positional and physical properties of coronal streamer observed by PSP/WISPR.
 
 First clone the repository:
+
     cd <directory_to_save_repository>
     git clone https://github.com/gretacappello/BriLo
     cd BriLo
