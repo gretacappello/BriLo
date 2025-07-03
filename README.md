@@ -19,7 +19,7 @@ Go to the directory in which the codes are stored and open the first code which 
 
     jupyter notebook downloadWISPR_filter_point_track_save.ipynb
 
-7. Follow the notebook steps to track the selected ray and store the coordinates along the ray.
+Follow the notebook steps to track the selected ray and store the coordinates along the ray.
 
 Notes:
 - Make sure you select ray and pointy rays. Avoid blurry and over structured rays.
