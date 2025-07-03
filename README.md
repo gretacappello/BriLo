@@ -1,16 +1,17 @@
  # BriLo
-This repository provides tools to download WISPR Level 3 data, select and track coronal rays, fit their measured brightness over elongation with a theoretical profile of the Thomson Scattering theory to infer positional and physical properties of coronal streamer observed by PSP/WISPR
+This repository provides tools to download WISPR Level 3 data, select and track coronal rays, fit their measured brightness over elongation with a theoretical profile of the Thomson Scattering theory to infer positional and physical properties of coronal streamer observed by PSP/WISPR.
 
-1. Clone the repository:
+First clone the repository:
     cd <directory_to_save_repository>
     git clone https://github.com/gretacappello/BriLo
     cd BriLo
    
-3. Install requirements:
+Then install requirements using the environment.yml file:
 
     conda env create -f environment.yml
+    conda activate brilo
    
-5. Open the Jupyter Notebook:
+Go to the directory in which the codes are stored and open the first code which is a Jupyter Notebook:
 
     jupyter notebook downloadWISPR_filter_point_track_save.ipynb
 
@@ -21,7 +22,7 @@ Notes
 - Make sure you select ray and pointy rays. Avoid blurry and over structured rays.
 - You may want to repeat the track at least three time to ensure to have a good extimation of the errors.
 
-Once the ray has been tracked, you can use the brilo.py script to find the optimal solution for C and γ based on the selected measurement points. To run the script, execute:
+Once the ray has been tracked, you can use the brilo.py script to find the optimal solution for C and γ based on the selected measurement points. To run the Python script, execute:
 
    python brilo.py
 
