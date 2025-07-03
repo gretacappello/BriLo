@@ -33,9 +33,9 @@ Once the ray has been tracked, you can use the brilo.py script to find the optim
 
 Before running, check and edit the initial settings in brilo.py to ensure you have specified the correct example name, the path to the L3 WISPR file, the path to the directory where figures should be saved and any other relevant keywords or configuration options. Make sure these settings match your tracked ray and data files to obtain accurate results.
 
-______________________________________________________________
-CONTACT AND REFERENCING
-______________________________________________________________
+
+Contact and referencing
+-----
 A study on coronal rays observed by WISPR using BriLo is currently under development.
 
 For any question or request please contact me at: greta.cappello@uni-graz.at 
