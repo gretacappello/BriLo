@@ -17,7 +17,7 @@ Tracking
 -----
 Go to the directory in which the codes are stored and open the first code which is a Jupyter Notebook:
 
-    jupyter notebook downloadWISPR_filter_point_track_save.ipynb
+    jupyter notebook dowload_track_L3_brilo.ipynb
 
 Follow the notebook steps to track the selected ray and store the coordinates along the ray.
 
