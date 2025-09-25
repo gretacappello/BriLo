@@ -20,6 +20,7 @@ from sunpy.coordinates import HeliographicCarrington
 
 ray = 1  
 
+
 #L3 dataset
 open("/Users/gretacappello/Desktop/PROJECT_2_METIS_TS/PSI_simulation_erika/plots/L3_tests/longitude_results.txt", "w").close()
 open("/Users/gretacappello/Desktop/PROJECT_2_METIS_TS/PSI_simulation_erika/plots/L3_tests/longitude_results_carr.txt", "w").close()
