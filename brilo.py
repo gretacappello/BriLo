@@ -528,7 +528,7 @@ for ray in range(1, 11):
         beta = np.deg2rad(lon_lat.Ty.degree)  # array
         r1 = header[0]['DSUN_OBS']            # scalar
         elong_rad = np.deg2rad(elong)
-        r2 = r1 * np.sin(gamma1)/np.sin(gamma1+elong_rad)       # array
+        r2 = r1 * np.sin(elong_rad)/np.sin(gamma1+elong_rad)       # array
         print("start check")
         print("eps1 = ", elong)
         print("eps = ", np.rad2deg(eps))
