@@ -658,7 +658,7 @@ for example in range(1, 4):  # range goes from 1 to 3  (1, 4)
     gamma1 = np.deg2rad(res_gamma)        # scalar
     eps = np.deg2rad(lon_lat.Tx.degree)   # array
     beta = np.deg2rad(lon_lat.Ty.degree)  # array
-    r1 = header[0]['RSUN_REF']            # scalar
+    r1 = header[0]['DSUN_OBS']            # scalar
     elong_rad = np.deg2rad(elong)
     r2 = r1 * np.sin(gamma1)/np.sin(elong_rad)        # array  
     print("start check")
